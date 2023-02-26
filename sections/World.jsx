@@ -39,7 +39,7 @@ const World = () => (
           height={2500}
           className="w-full h-full object-cover"
         />
-        <div className="absolute bottom-20 right-20 ">
+        <div className="absolute bottom-[20rem] right-6 lg:right-20 lg:bottom-20">
           <Image
             src="/people-01.svg"
             alt="people"
@@ -48,7 +48,7 @@ const World = () => (
             className="w-full h-full"
           />
         </div>
-        <div className="absolute top-10 left-20 ">
+        <div className="absolute top-2 left-20 lg:top-10 ">
           <Image
             src="/people-02.svg"
             alt="people"
@@ -57,7 +57,7 @@ const World = () => (
             className="w-full h-full"
           />
         </div>
-        <div className="absolute top-1/3 left-[40%] ">
+        <div className="absolute top-1/3 left-[20%] md:left-[40%]">
           <Image
             src="/people-03.svg"
             alt="people"
@@ -72,6 +72,7 @@ const World = () => (
             alt="people"
             width={300}
             height={300}
+            className="lg:visible hidden"
           />
         </div>
         <div className="absolute bottom-[48%] left-[60%] p-[6px]">
@@ -80,6 +81,7 @@ const World = () => (
             alt="people"
             width={350}
             height={350}
+            className="lg:visible hidden"
           />
         </div>
       </motion.div>
